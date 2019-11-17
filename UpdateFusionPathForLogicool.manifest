@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"woodenCaliper",
+	"description":	{
+		"":	"fusion360がアップデートをするたびにexeのファイルパスが変わり、そのたびにlogicoolのプロファイルのリンクを修正する作業を自動化"
+	},
+	"supportedOS":	"windows",
+	"editEnabled":	true
+}
