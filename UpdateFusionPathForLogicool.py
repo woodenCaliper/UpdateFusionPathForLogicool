@@ -74,8 +74,7 @@ def run(context):
         newFusionPath = replaceFusionPath(targetFile, oldFusionPath)
 
         if newFusionPath:
-            ui.messageBox
-            (
+            ui.messageBox(
                 "Change success" +"\n"
                 + "\n"
                 + oldFusionPath +"\n"
