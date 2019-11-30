@@ -38,7 +38,7 @@ def serchTargetFile():
             print(targetTag.attrib["path"])
 
             gamePath = targetTag.attrib["path"]
-            if "Fusion360.exe" in gamePath:
+            if "FUSION360.EXE" in gamePath.upper():
                 targetFile = profileFilePath
                 oldFusionPath = targetTag.attrib["path"]
 
